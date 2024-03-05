@@ -28,29 +28,31 @@
 // document.write(`${tempCelc}˚C equivalen a ${tempKelv} ˚K y a ${tempFar} ˚F .`);
 
 
+
+
 // Programa que transforma dias en su equivalencia en años.
 
-// let Ndias = parseInt(prompt("Ingrese numero de dias a calcular"));
+let Ndias = parseInt(prompt("Ingrese numero de dias a calcular"));
 
-// const ano = 365;
-// const semana = 7;
-// const dia = 1;
+const ano = 365;
+const semana = 7;
+const dia = 1;
 
-// let diasAno = Math.floor(Ndias / ano);
-// let semAno = Math.floor((Ndias % ano)/7);
-// let diaAno = Math.floor((Ndias % ano)%7);
+let diasAno = Math.floor(Ndias / ano);
+let semAno = Math.floor((Ndias % ano)/7);
+let diaAno = Math.floor((Ndias % ano)%7);
 
-// document.write(`${Ndias} es equivalente a ${diasAno} años, ${semAno} semanas y ${diaAno} dias. `)
+document.write(`${Ndias} dias es equivalente a ${diasAno} años, ${semAno} semanas y ${diaAno} dias. `)
 
 // Programa que solicita numeros
 
-let num1 = parseInt(prompt("Ingresar un numero mayor a cero"));
-let num2 = parseInt(prompt("Ingresar un numero mayor a cero"));
-let num3 = parseInt(prompt("Ingresar un numero mayor a cero"));
-let num4 = parseInt(prompt("Ingresar un numero mayor a cero"));
-let num5 = parseInt(prompt("Ingresar un numero mayor a cero"));
+// let num1 = parseInt(prompt("Ingresar un numero mayor a cero"));
+// let num2 = parseInt(prompt("Ingresar un numero mayor a cero"));
+// let num3 = parseInt(prompt("Ingresar un numero mayor a cero"));
+// let num4 = parseInt(prompt("Ingresar un numero mayor a cero"));
+// let num5 = parseInt(prompt("Ingresar un numero mayor a cero"));
 
-let suma = num1 + num2 + num3 + num4 + num5;
-let prom = (suma/suma.length);
+// let suma = num1 + num2 + num3 + num4 + num5;
+// let prom = (suma/suma.length);
 
-document.write(`La suma de los numeros ingresados es: ${suma} y el promedio de esos numeros es ${prom}.`);
+// document.write(`La suma de los numeros ingresados es: ${suma} y el promedio de esos numeros es ${prom}.`);
